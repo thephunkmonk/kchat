@@ -23,3 +23,18 @@ $ $KAFKA_HOME/bin/kafka-console-consumer.sh --topic topic1 --from-beginning --bo
 {"str": "value8"}
 {"str": "value9"}
 ```
+
+
+```bash
+python src/kchat/kafka/pro_chat.py
+Chating program - sending message
+Please print your message, enter 'exit' to quit
+YOU: hey
+YOU: you
+YOU: are you there
+YOU: what is the thingie
+YOU: 헤이요
+YOU: ㄱ 저기로가요
+YOU: exit
+Ending chat
+```
